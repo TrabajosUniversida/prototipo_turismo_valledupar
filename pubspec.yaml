@@ -1,0 +1,18 @@
+name: prototipo_turismo_valledupar
+description: Proyecto Flutter con RA para turismo sostenible en Valledupar
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  arcore_flutter_plugin: ^0.0.6
+  vector_math: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
